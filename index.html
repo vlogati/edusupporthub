@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+  <meta charset="UTF-8">
+
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Title -->
+  <title>EduSupport.Hub | College & Academic Support Services</title>
+
+  <!-- SEO Description -->
+  <meta name="description" content="EduSupport.Hub provides academic, administrative, and digital support services for colleges and educational institutions.">
+
+  <!-- SEO Keywords -->
+  <meta name="keywords" content="EduSupport.Hub, college support services, academic support, education consultancy">
+
+  <!-- Author -->
+  <meta name="author" content="EduSupport">
+
+  <!-- Canonical URL (IMPORTANT) -->
+  <link rel="canonical" href="https://edusupport.in">
+
+  <!-- Open Graph (Google & Social Sharing) -->
+  <meta property="og:title" content="EduSupport.Hub">
+  <meta property="og:description" content="Trusted academic and college support services">
+  <meta property="og:url" content="https://edusupporthub.in">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  
+</head>
+
+  <style>
+:root {
+  --primary: #008891;
+  --primary-dark: #005f73;
+  --accent: #94d2bd;
+  --text-dark: #033e6b;
+  --text-light: #2c3e50;
+  --white: #ffffff;
+  --light-bg: rgba(26, 35, 50, 0.7);
+  --card-bg: rgba(36, 52, 71, 0.8);
+  --section-bg: rgba(15, 20, 25, 0.7);
+  --body-bg: #0a0e14;
+  --text-color: #e8e8e8;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --transition: all 0.3s ease;
+}
+
+.LaboratoryExpertise-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #bafaffbd;
+  border-radius: 16px;
+  margin: 60px auto;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+}
+
+
+.LaboratoryExpertise-section h2 {
+  font-size: 28px;
+  color: #003366;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.LaboratoryExpertise-section h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #0077b6;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.LaboratoryExpertis {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.LaboratoryExpertis p {
+  margin-bottom: 12px;
+}
+
+.LaboratoryExpertis strong {
+  color: #0077b6;
+}
+
+body.light-mode {
+  --light-bg: rgba(240, 245, 250, 0.85);
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --section-bg: rgba(250, 252, 255, 0.85);
+  --body-bg: #f0f4f8;
+  --text-color: #1a202c;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background: var(--body-bg);
+  min-height: 100vh;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: var(--accent);
+  text-shadow: 0 2px 10px rgba(148, 210, 189, 0.3);
+}
+
+body.light-mode h2 {
+  color: var(--primary);
+  text-shadow: 0 2px 10px rgba(0, 136, 145, 0.2);
+}
+
+.animated-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.animated-bg span {
+  position: absolute;
+  display: block;
+  background: linear-gradient(135deg, rgba(148, 210, 189, 0.15), rgba(0, 136, 145, 0.15));
+  opacity: 0.6;
+  border-radius: 20px;
+  animation: moveShape 25s linear infinite;
+}
+
+body.light-mode .animated-bg span {
+  background: linear-gradient(135deg, rgba(148, 210, 189, 0.3), rgba(0, 136, 145, 0.3));
+  opacity: 0.8;
+}
+
+.animated-bg span:nth-child(1) { width: 200px; height: 200px; top: 10%; left: 5%; animation-duration: 30s; }
+.animated-bg span:nth-child(2) { width: 150px; height: 150px; top: 40%; left: 20%; animation-duration: 25s; }
+.animated-bg span:nth-child(3) { width: 250px; height: 250px; top: 70%; left: 10%; animation-duration: 35s; }
+.animated-bg span:nth-child(4) { width: 180px; height: 180px; top: 20%; left: 60%; animation-duration: 28s; }
+.animated-bg span:nth-child(5) { width: 220px; height: 220px; top: 60%; left: 75%; animation-duration: 32s; }
+.animated-bg span:nth-child(6) { width: 160px; height: 160px; top: 80%; left: 50%; animation-duration: 30s; }
+.animated-bg span:nth-child(7) { width: 140px; height: 140px; top: 30%; left: 85%; animation-duration: 27s; }
+.animated-bg span:nth-child(8) { width: 200px; height: 200px; top: 50%; left: 35%; animation-duration: 33s; }
+
+@keyframes moveShape {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-50vh) rotate(180deg);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0) rotate(360deg);
+    opacity: 0.4;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(15, 20, 25, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(148, 210, 189, 0.1);
+}
+
+body.light-mode header {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 136, 145, 0.2);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 1rem;
+  transition: var(--transition);
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+body.light-mode nav a {
+  color: var(--primary);
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+body.light-mode nav a::after {
+  background: var(--primary);
+}
+
+nav a:hover {
+  color: #a8dcc9;
+}
+
+body.light-mode nav a:hover {
+  color: var(--primary-dark);
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+.theme-toggle {
+  background: var(--card-bg);
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: var(--transition);
+}
+
+.theme-toggle:hover {
+  background: var(--accent);
+  color: var(--section-bg);
+  transform: rotate(180deg);
+}
+
+body.light-mode .theme-toggle {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+body.light-mode .theme-toggle:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 5% 5rem;
+  overflow: hidden;
+}
+
+.hero-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 135, 145, 0.573), rgba(0, 96, 115, 0.651));
+  z-index: 0;
+}
+
+body.light-mode .hero-bg-overlay {
+  background: linear-gradient(135deg, rgba(148, 210, 189, 0.7), rgba(0, 136, 145, 0.6));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.hero-text {
+  flex: 1;
+  color: var(--white);
+}
+
+.hero-logo img {
+  max-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--white);
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--accent);
+  color: var(--text-dark);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: var(--transition);
+  box-shadow: 0 4px 15px rgba(148, 210, 189, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #a8dcc9;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(148, 210, 189, 0.5);
+}
+
+body.light-mode .btn {
+  background: var(--primary);
+  color: white;
+}
+
+body.light-mode .btn:hover {
+  background: var(--primary-dark);
+}
+
+section {
+  padding: 6rem 5%;
+  position: relative;
+  background: var(--section-bg);
+}
+
+.about-section,
+.founder-section,
+.laboratory-section,
+.skills-section,
+.offer-section,
+.services-section,
+.contact-section,
+.contact-details-section {
+  background: var(--section-bg);
+}
+
+.about-section:nth-of-type(even),
+.mission-vision-section {
+  background: var(--light-bg);
+}
+
+.about-content,
+.founder-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-card,
+.founder-card {
+  background: var(--card-bg);
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 1px solid rgba(148, 210, 189, 0.1);
+}
+
+body.light-mode .about-card,
+body.light-mode .founder-card {
+  border: 1px solid rgba(0, 136, 145, 0.2);
+}
+
+.about-card:hover,
+.founder-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(148, 210, 189, 0.3);
+}
+
+body.light-mode .about-card:hover,
+body.light-mode .founder-card:hover {
+  border-color: var(--primary);
+}
+
+.founder-card {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.founder-image {
+  flex: 0 0 250px;
+}
+
+.founder-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  border: 3px solid var(--accent);
+}
+
+body.light-mode .founder-image img {
+  border-color: var(--primary);
+}
+
+.founder-info {
+  flex: 1;
+}
+
+.about-card h3,
+.founder-card h3 {
+  color: var(--accent);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+body.light-mode .about-card h3,
+body.light-mode .founder-card h3 {
+  color: var(--primary);
+}
+
+.about-card p,
+.founder-card p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+body.light-mode .about-card p,
+body.light-mode .founder-card p {
+  color: #4a5568;
+}
+
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  text-align: center;
+  border: 1px solid rgba(148, 210, 189, 0.1);
+}
+
+body.light-mode .card {
+  border: 1px solid rgba(0, 136, 145, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(148, 210, 189, 0.3);
+}
+
+body.light-mode .card:hover {
+  border-color: var(--primary);
+}
+
+.card-icon {
+  font-size: 3.5rem;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+body.light-mode .card-icon {
+  color: var(--primary);
+}
+
+.card h3 {
+  color: var(--accent);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+body.light-mode .card h3 {
+  color: var(--primary);
+}
+
+.card p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+body.light-mode .card p {
+  color: #4a5568;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.expertise-item {
+  background: linear-gradient(135deg, rgba(148, 210, 189, 0.15), rgba(0, 136, 145, 0.15));
+  color: var(--accent);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: var(--transition);
+  font-weight: 500;
+  border: 1px solid rgba(148, 210, 189, 0.2);
+}
+
+body.light-mode .expertise-item {
+  background: linear-gradient(135deg, rgba(148, 210, 189, 0.3), rgba(0, 136, 145, 0.2));
+  color: var(--primary);
+  border: 1px solid rgba(0, 136, 145, 0.3);
+}
+
+.expertise-item:hover {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: var(--white);
+  transform: translateY(-5px);
+  border-color: var(--primary);
+}
+
+.expertise-item i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.skill-card {
+  background: var(--card-bg);
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  transition: var(--transition);
+  border: 1px solid rgba(148, 210, 189, 0.1);
+}
+
+body.light-mode .skill-card {
+  border: 1px solid rgba(0, 136, 145, 0.2);
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--accent);
+  background: linear-gradient(135deg, rgba(148, 210, 189, 0.1), rgba(0, 136, 145, 0.1));
+}
+
+body.light-mode .skill-card:hover {
+  border-color: var(--primary);
+  background: linear-gradient(135deg, rgba(148, 210, 189, 0.2), rgba(0, 136, 145, 0.15));
+}
+
+.skill-icon {
+  font-size: 3rem;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+body.light-mode .skill-icon {
+  color: var(--primary);
+}
+
+.skill-card h3 {
+  color: var(--accent);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+body.light-mode .skill-card h3 {
+  color: var(--primary);
+}
+
+.skill-card p {
+  color: #d1d5db;
+  font-size: 1rem;
+}
+
+body.light-mode .skill-card p {
+  color: #4a5568;
+}
+
+.offer-banner,
+.offer-details {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.offer-banner img,
+.offer-details img {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.offer-banner img:hover,
+.offer-details img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-hover);
+}
+
+.services-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 2rem;
+  padding: 2rem 0;
+  scroll-behavior: smooth;
+}
+
+.service-card {
+  flex: 0 0 400px;
+  background: var(--card-bg);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 1px solid rgba(148, 210, 189, 0.1);
+}
+
+body.light-mode .service-card {
+  border: 1px solid rgba(0, 136, 145, 0.2);
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--accent);
+}
+
+body.light-mode .service-card:hover {
+  border-color: var(--primary);
+}
+
+.service-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  display: block;
+  background: #1a1f2e;
+}
+
+body.light-mode .service-card img {
+  background: #f7fafc;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+
+.contact-form {
+  background: var(--card-bg);
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(148, 210, 189, 0.1);
+}
+
+body.light-mode .contact-form {
+  border: 1px solid rgba(0, 136, 145, 0.2);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgba(148, 210, 189, 0.2);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  transition: var(--transition);
+  background: rgba(15, 20, 25, 0.5);
+  color: #e8e8e8;
+}
+
+body.light-mode .contact-form input,
+body.light-mode .contact-form textarea {
+  background: rgba(255, 255, 255, 0.7);
+  color: #1a202c;
+  border: 1px solid rgba(0, 136, 145, 0.3);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: rgba(15, 20, 25, 0.8);
+}
+
+body.light-mode .contact-form input:focus,
+body.light-mode .contact-form textarea:focus {
+  border-color: var(--primary);
+  background: white;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-note {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  transition: var(--transition);
+  border: 1px solid rgba(148, 210, 189, 0.2);
+  color: #d1d5db;
+}
+
+body.light-mode .contact-item {
+  border: 1px solid rgba(0, 136, 145, 0.2);
+  color: #4a5568;
+}
+
+.contact-item:hover {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: var(--white);
+  transform: translateY(-5px);
+  border-color: var(--primary);
+}
+
+.contact-item i {
+  font-size: 2rem;
+  color: var(--accent);
+  transition: var(--transition);
+}
+
+body.light-mode .contact-item i {
+  color: var(--primary);
+}
+
+.contact-item:hover i {
+  color: var(--white);
+}
+
+.contact-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-item p,
+.contact-item a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: rgba(148, 210, 189, 0.1);
+  color: var(--accent);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  transition: var(--transition);
+  border: 1px solid rgba(148, 210, 189, 0.3);
+}
+
+body.light-mode .social-icons a {
+  background: rgba(0, 136, 145, 0.1);
+  color: var(--primary);
+  border: 1px solid rgba(0, 136, 145, 0.3);
+}
+
+.social-icons a:hover {
+  background: var(--accent);
+  color: var(--section-bg);
+  transform: scale(1.1);
+  border-color: var(--accent);
+}
+
+body.light-mode .social-icons a:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+#scrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: none;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  z-index: 999;
+}
+
+#scrollTop:hover {
+  background: var(--primary-dark);
+  transform: scale(1.1);
+}
+
+footer {
+  background: #000000;
+  color: #d1d5db;
+  text-align: center;
+  padding: 3rem 5%;
+  border-top: 1px solid rgba(148, 210, 189, 0.1);
+}
+
+body.light-mode footer {
+  background: #e2e8f0;
+  color: #2d3748;
+  border-top: 1px solid rgba(0, 136, 145, 0.2);
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 1024px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .founder-image {
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .hero {
+    padding: 6rem 5% 4rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 4rem 5%;
+  }
+
+  .mission-vision-grid,
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+}
+/* ✅ Normal (mobile mode) */
+
+
+/* ✅ When switched to Desktop mode (mobile "Desktop site" or real desktop) */
+@media (min-width: 1024px) {
+  .hero-logo2 {
+    transform: scale(1.4); /* 40% bigger only for logo2 */
+  }
+}
+/* Basic gallery layout */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* space between images */
+  padding: 10px;
+}
+
+/* Two big images same size */
+.big-img {
+  flex: 1 1 45%; /* takes around half width */
+}
+
+/* One smaller image */
+.small-img {
+  flex: 1 1 25%; /* smaller width */
+}
+
+/* All images take full width of their container */
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Responsive - stack on smaller screens */
+@media screen and (max-width: 800px) {
+  .big-img, .small-img {
+    flex: 1 1 100%;
+  }
+}
+.hero-logo {
+  overflow: visible;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-logo2 {
+  transform-origin: left center;
+}
+
+/* ===== MOBILE FIX FOR HERO LOGO ===== */
+@media (max-width: 768px) {
+  .hero-logo {
+    justify-content: center;   /* center logo */
+  }
+
+  .hero-logo2 {
+    max-width: 260px;          /* make logo bigger */
+    transform-origin: center; /* normal center scaling */
+  }
+}
+
+/* ===== MOBILE LOGO FINAL FIX ===== */
+@media (max-width: 768px) {
+  .hero-logo {
+    justify-content: center;
+  }
+
+  .hero-logo2 {
+    max-width: 280px;        /* bigger on real mobile */
+    transform: scale(1.4);  /* visible & strong */
+    transform-origin: center;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  
+  <div class="animated-bg">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+ <header>
+  <div class="header-container">
+
+    <!-- Logo (SEO + Accessibility Friendly) -->
+    <div class="logo">
+      <a href="/" aria-label="EduSupport.Hub Home">
+        <img 
+          src="Edusupport.Hub__1_-removebg-preview.png"
+          alt="EduSupport.Hub Logo"
+          class="logo logo1"
+        >
+      </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav aria-label="Primary Navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+
+      <!-- Theme Toggle -->
+      <button 
+        class="theme-toggle" 
+        onclick="toggleTheme()" 
+        title="Toggle Dark/Light Mode"
+        aria-label="Toggle Dark or Light Theme"
+      >
+        <i class="fas fa-moon" id="theme-icon"></i>
+      </button>
+    </nav>
+
+  </div>
+</header>
+
+
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-logo">
+          <img src="Edusupport.Hub__1_-removebg-preview.png" alt="Logo2" class="hero-logo2">
+        </div>
+        <h1>Your Partner in Academic Excellence!</h1>
+        <p>Guiding students with expertise, clarity, and dedication.</p>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+      <div class="hero-image">
+        <img src="i-removebg-preview.png" alt="Academic Support" class="hero-img">
+      
+    </div>
+  </section>
+  
+  <section class="mission-vision-section">
+    <div class="container">
+      <h2>Mission & Vision</h2>
+      <div class="mission-vision-grid">
+        <div class="card mission-card">
+          <div class="card-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h3>Our Mission</h3>
+          <p> "Our mission is to support colleges and technical institutes in achieving and maintaining
+        accreditation, enhancing institutional quality, and building sustainable systems for
+        compliance, documentation, and innovation. We aim to deliver expert consultancy services in
+        IQAC setup, NAAC/NBA processes, faculty training, policy development, and digital
+        documentation, fostering a culture of quality, transparency, and growth."</p>
+        </div>
+        <div class="card vision-card">
+          <div class="card-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h3>Our Vision</h3>
+          <p>"To become a trusted and leading consultancy partner in empowering educational institutions
+        to achieve academic excellence, quality assurance, and national-level recognition through
+        structured guidance and continuous improvement."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <div class="about-card">
+          <h3>Who We Are</h3>
+          <p>We specialize in guiding graduate, postgraduate, and research scholars through every
+stage of their academic projects. From topic selection and proposal drafting to data
+analysis, thesis writing, and final presentation, we ensure that every project meets high
+academic standards with accuracy and professionalism.
+For institutions, we offer comprehensive assistance in accreditation documentation,
+ensuring smooth compliance with regulatory and quality benchmarks. In addition, we provide
+high-quality laboratory chemicals and supplies, supporting institutions in maintaining
+well-equipped and efficient research environments.
+Our mission is to simplify the academic and institutional journey by delivering reliable,
+ethical, and customized solutions — empowering students, researchers, and organizations
+to achieve excellence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="founder-section">
+    <div class="container">
+      <h2>About the Founder</h2>
+      <div class="founder-content">
+        <div class="founder-card">
+          <div class="founder-image">
+            <img src="1000045633-removebg-preview.png" alt="Dr. Arpit Suralkar">
+          </div>
+          <div class="founder-info">
+            <h3>Dr. Arpit Suralkar</h3>
+            <p>A expertise in Pharmaceutical Science and currently working as an HOD Pharmaceutical
+science, specializing in Analytical Techniques and Pharmaceutical Sciences. With over years
+of academic experience, passionate about Counselling, Research Guidance, And
+Analytical Instrumentation. His Work Focuses On Method Development, Project
+Management, and active involvement in IQAC processes and accreditation activities. I strive
+to integrate innovation and precision into every aspect of my teaching and research,
+contributing to the growth and quality of pharmaceutical education.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h2>Our Experts</h2>
+<div class="gallery">
+  <div class="big-img">
+    <img src="1000050318.jpg" alt="Image 1">
+  </div>
+  <div class="big-img">
+    <img src="1000050321.jpg" alt="Image 2">
+  </div>
+  <div class="small-img">
+    <img src="1000050322.jpg" alt="Image 3">
+  </div>
+</div>
+
+
+  <section class="laboratory-section">
+    <div class="container">
+      <h2>Laboratory Expertise</h2>
+      <div class="expertise-grid">
+        <div class="expertise-item">
+          <i class="fas fa-microscope"></i>
+          <span>Advanced Research Methods</span>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-flask"></i>
+          <span>Laboratory Analysis</span>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-vials"></i>
+          <span>Scientific Instrumentation</span>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-chart-line"></i>
+          <span>Data Analytics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="LaboratoryExpertise-section" id="InstrumentsHandled">
+  <h2>Instruments Handled</h2>
+  <div class="LaboratoryExpertise">
+    <div class="LaboratoryExpertis">
+      <p>
+        <strong>High-Performance Liquid Chromatography (HPLC):</strong>
+        Waters (Empower Pro software) and Shimadzu (LC Solution software)
+        systems equipped with PDA detectors.
+      </p>
+      <p>
+        <strong>Infrared Spectroscopy (IR):</strong>
+        Thermo ID3 ATR with OMNIC software for qualitative and quantitative analysis.
+      </p>
+      <p>
+        <strong>UV-Visible Spectrophotometer:</strong>
+        Elico and Shimadzu models for absorbance and transmittance studies.
+      </p>
+      <p>
+        <strong>Dissolution Apparatus:</strong>
+        USP Type I &amp; II (Electrolab and VanKel) for in-vitro dissolution testing.
+      </p>
+      <p>
+        <strong>Basic Laboratory Instruments:</strong>
+        pH meter, digital balance, hot air oven, magnetic stirrer, water bath, microscope,
+        hot plate, and rotary evaporator.
+      </p>
+      <p>
+        Our collective expertise ensures that every analytical task is performed with precision
+        and in compliance with the highest scientific standards.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <h2>Our Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>Research Guidance</h3>
+          <p>Expert assistance in research methodology and design</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h3>Thesis Writing</h3>
+          <p>Comprehensive support for academic writing</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>Data Analysis</h3>
+          <p>Advanced statistical and data analysis support</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h3>Academic Mentorship</h3>
+          <p>One-on-one guidance throughout your journey</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <h3>Project Management</h3>
+          <p>Help managing timelines and deliverables</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <section class="services-section" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-gallery">
+        <div class="service-card">
+          <img src="1000045880 (1).jpg" alt="Service 1">
+        </div>
+        <div class="service-card">
+          <img src="1000045878.jpg" alt="Service 2">
+        </div>
+        <div class="service-card">
+          <img src="1000045885 (1).jpg" alt="Service 3">
+        </div>
+        <div class="service-card">
+          <img src="1000045887.jpg" alt="Service 4">
+        </div>
+        <div class="service-card">
+          <img src="1000045882 (1).jpg" alt="Service 5">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-image">
+          <img src="istockphoto-1481697794-612x612.jpg" alt="Contact Us">
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" onsubmit="return sendMessage(event)">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formNote" class="form-note"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-details-section">
+    <div class="container">
+      <h2>Contact Details</h2>
+      <div class="contact-details">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:9284412260">9284412260</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:drxarpits@gmail.com">drxarpits@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Office Address</strong>
+            <p>Karishma Chouk, Kothrud, Pune</p>
+          </div>
+        </div>
+        <div class="contact-item social-links">
+          <i class="fas fa-share-alt"></i>
+          <div>
+            <strong>Connect with Us</strong>
+            <div class="social-icons">
+              <a href="https://chat.whatsapp.com/EhKdOCPbmsvBNHrmOiCU3p?mode=ems_wa_t" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/arpit-suralkar-72150120b" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/edusupport.hub?igsh=cTZlYnlxYXhqdG84" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button id="scrollTop" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 EduSupport.Hub. All rights reserved.</p>
+      <p>Empowering Academic Excellence</p>
+    </div>
+  </footer>
+
+  <script>
+function toggleTheme() {
+  const body = document.body;
+  const themeIcon = document.getElementById('theme-icon');
+  
+  body.classList.toggle('light-mode');
+  
+  if (body.classList.contains('light-mode')) {
+    themeIcon.classList.remove('fa-moon');
+    themeIcon.classList.add('fa-sun');
+    localStorage.setItem('theme', 'light');
+  } else {
+    themeIcon.classList.remove('fa-sun');
+    themeIcon.classList.add('fa-moon');
+    localStorage.setItem('theme', 'dark');
+  }
+}
+
+window.addEventListener('load', () => {
+  const savedTheme = localStorage.getItem('theme');
+  const themeIcon = document.getElementById('theme-icon');
+  
+  if (savedTheme === 'light') {
+    document.body.classList.add('light-mode');
+    themeIcon.classList.remove('fa-moon');
+    themeIcon.classList.add('fa-sun');
+  }
+});
+
+function sendMessage(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  const phoneNumber = "9284412260";
+
+  const whatsappMessage =
+    `Hello Prof. Arpit,%0A%0AYou have a new inquiry from your EduSupport.Hub website:%0A%0A` +
+    `👤 Name: ${name}%0A` +
+    `📧 Email: ${email}%0A` +
+    `💬 Message: ${message}`;
+
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+  window.open(whatsappURL, "_blank");
+
+  const note = document.getElementById("formNote");
+  note.textContent = "Opening WhatsApp...";
+
+  setTimeout(() => {
+    note.textContent = "";
+  }, 3000);
+}
+
+const scrollBtn = document.getElementById("scrollTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 400) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+const sections = document.querySelectorAll("section");
+
+const revealOnScroll = () => {
+  sections.forEach(sec => {
+    const top = sec.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) {
+      sec.style.opacity = "1";
+      sec.style.transform = "translateY(0)";
+    }
+  });
+};
+
+sections.forEach(sec => {
+  sec.style.opacity = "0";
+  sec.style.transform = "translateY(40px)";
+  sec.style.transition = "opacity 0.9s ease, transform 0.9s ease";
+});
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
+
+
+
+function resizeLogo2() {
+  const logo2 = document.querySelector('.hero-logo2');
+  if (!logo2) return;
+
+  /* JS ONLY for laptop & desktop */
+  if (window.innerWidth >= 1024) {
+    logo2.style.transform = "scale(2) translateX(12px)";
+    logo2.style.transformOrigin = "left center";
+  } else {
+    /* Let CSS handle mobile & tablet */
+    logo2.style.transform = "";
+    logo2.style.transformOrigin = "";
+  }
+
+  logo2.style.transition = "transform 0.4s ease-in-out";
+}
+
+window.addEventListener('load', resizeLogo2);
+window.addEventListener('resize', resizeLogo2);
+
+
+
+
+
+
+  </script>
+</body>
+</html>
